@@ -3,25 +3,25 @@ package ua.nure.kn.petrenko.usermanagment;
 import java.time.LocalDate;
 
 public class User {
-    private long id;
+    private Long id;
     private String firstName;
     private String lastName;
     private LocalDate dateOfBirth;
 
     public User() {}
 
-    public User(long id, String firstName, String lastName, LocalDate dateOfBirth) {
+    public User(Long id, String firstName, String lastName, LocalDate dateOfBirth) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(Long id) {
         this.id = id;
     }
 

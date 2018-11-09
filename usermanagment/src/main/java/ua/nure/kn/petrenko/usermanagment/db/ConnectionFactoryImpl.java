@@ -21,11 +21,6 @@ public class ConnectionFactoryImpl implements ConnectionFactory {
 
     @Override
     public Connection createConnection() throws DataBaseException {
-        String driver = "org.hsqldb.jdbcDriver";
-        String url = "jdbc:hsqldb:file:db/usermanagment";
-        String user = "sa";
-        String password = "";
-
         try {
             Class.forName(driver);
         } catch (ClassNotFoundException e) {
