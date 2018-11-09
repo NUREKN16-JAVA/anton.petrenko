@@ -7,7 +7,7 @@ import org.dbunit.dataset.IDataSet;
 import org.dbunit.dataset.xml.XmlDataSet;
 import org.junit.*;
 import static org.junit.Assert.*;
-import ua.nure.kn.dudka.usermanagment.User;
+import ua.nure.kn.petrenko.usermanagment.User;
 
 import java.time.LocalDate;
 import java.util.Collection;
