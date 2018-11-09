@@ -2,14 +2,15 @@ package ua.nure.kn.petrenko.usermanagment;
 
 import java.time.LocalDate;
 
-class User {
+public class User {
     private long id;
     private String firstName;
     private String lastName;
     private LocalDate dateOfBirth;
 
+    public User() {}
 
-    User(long id, String firstName, String lastName, LocalDate dateOfBirth) {
+    public User(long id, String firstName, String lastName, LocalDate dateOfBirth) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
