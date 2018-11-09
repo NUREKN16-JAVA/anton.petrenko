@@ -19,6 +19,14 @@ public class HsqlDBUserDAO implements UserDAO {
         this.connectionFactory = connectionFactory;
     }
 
+    public ConnectionFactory getConnectionFactory() {
+        return connectionFactory;
+    }
+
+    public void setConnectionFactory(ConnectionFactory connectionFactory) {
+        this.connectionFactory = connectionFactory;
+    }
+
     @Override
     public User create(User user) throws DataBaseException {
         Connection connection = connectionFactory.createConnection();
