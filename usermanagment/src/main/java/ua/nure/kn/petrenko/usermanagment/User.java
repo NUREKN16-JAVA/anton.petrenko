@@ -1,22 +1,32 @@
 package ua.nure.kn.petrenko.usermanagment;
 
 import java.time.LocalDate;
-
-class User {
-    private long id;
+/**
+* Class User contains information about user
+* */
+public class User {
+    private Long id;
     private String firstName;
     private String lastName;
     private LocalDate dateOfBirth;
 
 
-    User(long id, String firstName, String lastName, LocalDate dateOfBirth) {
+    public User() {}
+
+    public User(Long id, String firstName, String lastName, LocalDate dateOfBirth) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
         this.dateOfBirth = dateOfBirth;
     }
 
-    public long getId() {
+    public User(String firstName, String lastName, LocalDate dateOfBirth) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dateOfBirth = dateOfBirth;
+    }
+
+    public Long getId() {
         return id;
     }
 
@@ -48,10 +58,17 @@ class User {
         this.dateOfBirth = dateOfBirth;
     }
 
+    /**
+    * @return user's full name in format "First name, Last name"
+    * */
     String getFullName() {
         return lastName + ", " + firstName;
     }
 
+    /**
+     * This method expects correct birth date established in the past
+     * @return user's age in years
+     */
     long getAge() {
         LocalDate date = LocalDate.now();
         int age = date.getYear() - dateOfBirth.getYear();
@@ -61,5 +78,34 @@ class User {
         }
 
         return age;
+    }
+
+    @Override
+    public String toString() {
+        return "Name: " + firstName + "\nSurname: " + lastName + "\nDate of Birth: " + dateOfBirth;
+    }
+
+    @Override
+    public int hashCode() {
+        if (this.getId() == null) {
+            return 0;
+        }
+        return this.getId().hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+
+        if (this == obj) {
+            return true;
+        }
+        if (this.getId() == null && ((User)obj).getId() == null) {
+            return true;
+        }
+
+        return this.getId().equals(((User)obj).getId());
     }
 }
