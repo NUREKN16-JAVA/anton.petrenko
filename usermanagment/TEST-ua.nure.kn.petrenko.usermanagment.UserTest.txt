@@ -1,0 +1,9 @@
+Testsuite: UserTest
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.119 sec
+
+Testcase: testGetAgeSameMonthBefore took 0.103 sec
+Testcase: testGetAgeSameMonthAfter took 0.001 sec
+Testcase: testGetAgeAfter took 0 sec
+Testcase: testGetAgeBefore took 0 sec
+Testcase: testGetAgeSameDay took 0 sec
+Testcase: testGetFullName took 0 sec

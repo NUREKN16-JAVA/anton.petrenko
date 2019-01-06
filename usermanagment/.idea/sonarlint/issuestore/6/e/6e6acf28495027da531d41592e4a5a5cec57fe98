@@ -1,0 +1,9 @@
+
+\squid:S1155M">Use isEmpty() to check whether the collection is empty or not.(¦ÍªË8ØøŸºş,
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(ÔÿÃõúÿÿÿÿ8áÊÌ¹ş,
+V
+squid:S106B"9Replace this use of System.out or System.err by a logger.(„’Ÿµ8 ìÎ¹ş,
+Fsquid:S1148&"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ñ²ü‹ÿ,
+Fsquid:S1148F"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ó€Œÿ,
+Fsquid:S11488"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8”ÔŒÿ,
