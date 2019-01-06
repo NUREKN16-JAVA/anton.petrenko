@@ -1,35 +1,0 @@
-
-nsquid:S2095©"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(Ñ¹É¹8õªõ¹ş,
-dsquid:S2095Î"GUse try-with-resources or close this "Statement" in a "finally" clause.(é°Áµşÿÿÿÿ
-_squid:S2095"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(Å“¤Ú
-nsquid:S00116"VRename this field "DELETE_USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çÉƒé
-nsquid:S00116"VRename this field "INSERT_USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ïÙúó
-8squid:S1170"!Make this final field static too.(ıĞƒ
-nsquid:S00116"VRename this field "UPDATE_USER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÜßÌ
-dsquid:S2095o"HUse try-with-resources or close this "Connection" in a "finally" clause.(Üì“ûÿÿÿÿ
-lsquid:S2095¨"HUse try-with-resources or close this "Connection" in a "finally" clause.(Üì“ûÿÿÿÿ8«ğä¹ş,
-gsquid:S2095‹"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(‚û÷ª
-dsquid:S2095T"HUse try-with-resources or close this "Connection" in a "finally" clause.(Üì“ûÿÿÿÿ
-8squid:S1170"!Make this final field static too.(ÜßÌ
-8squid:S1170"!Make this final field static too.(çÉƒé
-8squid:S1170"!Make this final field static too.(ïÙúó
-rsquid:S00116"URename this field "FIND_BY_ID" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(·À…Òÿÿÿÿÿ
-@squid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-^squid:S2095Ï"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(šéæ>
-dsquid:S20950"HUse try-with-resources or close this "Connection" in a "finally" clause.(Üì“ûÿÿÿÿ
-fsquid:S2095U"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ŸÓ
-esquid:S2095:"OUse try-with-resources or close this "CallableStatement" in a "finally" clause.(†Âñc
-?squid:S1148{"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-ksquid:S20951"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(ğ•·¿üÿÿÿÿ
-fsquid:S2095q"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(æèŠÕ
-psquid:S00116"XRename this field "CALL_IDENTITY" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ıĞƒ
-^squid:S2095;"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(¥ºùù
-esquid:S2095Š"HUse try-with-resources or close this "Connection" in a "finally" clause.(Üì“ûÿÿÿÿ
-8squid:S1170"!Make this final field static too.(±¼™ì
-fsquid:S2095¬"GUse try-with-resources or close this "ResultSet" in a "finally" clause.(Å“¤Ú8«ğä¹ş,
-Gsquid:S1148½"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8«ğä¹ş,
-@squid:S1148à"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ
-qsquid:S00116"YRename this field "FIND_ALL_USERS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±¼™ì
-esquid:S2095Í"HUse try-with-resources or close this "Connection" in a "finally" clause.(Üì“ûÿÿÿÿ
-=squid:S1170"!Make this final field static too.(·À…Òÿÿÿÿÿ
-zsquid:S4165"bRemove this useless assignment; "user" already holds the assigned value along all execution paths.(¿ª•¸
